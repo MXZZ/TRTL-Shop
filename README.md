@@ -6,9 +6,10 @@ Written in vanilla JS
  _A small contribution for a world where we pay in TRTL_
  
 # Features: 
- ⋅⋅* Click on your products and generate QR Code to receive your payments ( uses TurtlePay(TM) )
- ⋅⋅* Check the status of the payments
- ⋅⋅* Desktop/Tablet and Mobile responsive interface
+
+ ⋅⋅*Click on your products and generate QR Code to receive your payments ( uses TurtlePay(TM) )
+ ⋅⋅*Check the status of the payments
+ ⋅⋅*Desktop/Tablet and Mobile responsive interface
   https://github.com/MXZZ/TRTL-Shop/blob/master/screenshot.PNG
  ![Screenshot](https://github.com/MXZZ/TRTL-Shop/blob/master/screenshot.PNG)
 
