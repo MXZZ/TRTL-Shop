@@ -7,9 +7,9 @@ Written in vanilla JS
  
 # Features: 
 
- ⋅⋅*Click on your products and generate QR Code to receive your payments ( uses TurtlePay(TM) )
- ⋅⋅*Check the status of the payments
- ⋅⋅*Desktop/Tablet and Mobile responsive interface
+ 1.Click on your products and generate QR Code to receive your payments ( uses TurtlePay® )
+ 2.Check the status of the payments
+ 3.Desktop/Tablet and Mobile responsive interface
   https://github.com/MXZZ/TRTL-Shop/blob/master/screenshot.PNG
  ![Screenshot](https://github.com/MXZZ/TRTL-Shop/blob/master/screenshot.PNG)
 
