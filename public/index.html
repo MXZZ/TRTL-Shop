@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TRTL Shop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="/js/jquery-3.4.1.slim.min.js"  crossorigin="anonymous"></script>
+	<script src="/js/popper.min.js"  crossorigin="anonymous"></script>
+	<script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/app.css" crossorigin="anonymous">
+</head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">TRTL Shop</a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+	  <li class="nav-item ">
+        <a class="nav-link" href="#" onclick='resetScreen()'>New Payment <span class="sr-only"></span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<body>
+    <div class="container-fluid " id='container'>
+		<div class="row">
+			<div class="jumbotron magic-jumbotron col-xs-12 col-sm-6 col-md-3 items-card">
+				<h2> Items</2>
+				<div id='item-container'></div>
+				<h3> Selected  </h3>
+				<div id='current-items'></div>
+			</div>
+			
+			<div class="jumbotron magic-jumbotron col-xs-12 col-sm-6 col-md-3 numpad-card">
+				<div id='items'><h2> Payment</h2></div>
+				<p><input type="text" class="form-control" id="reason" placeholder="Reason of Payment"></p>
+				<p><input type="number" class="form-control" id="amount" placeholder="TRTL Amount"></p>
+
+				<ul id="keyboard">   
+					<li onclick='numHit(1);' class="letter">1</li>  
+					<li onclick='numHit(2);' class="letter">2</li>  
+					<li onclick='numHit(3);' class="letter">3</li>  
+					<li onclick='numHit(4);' class="letter clearl">4</li>  
+					<li onclick='numHit(5);'  class="letter">5</li>  
+					<li onclick='numHit(6);' class="letter">6</li> 
+					<li onclick='numHit(7);' class="letter clearl">7</li>  
+					<li onclick='numHit(8);' class="letter ">8</li>  
+					<li onclick='numHit(9);' class="letter">9</li>  
+					<li onclick='numHit(0);' class="letter clearl">0</li>
+					<li onclick='numHit(-1);' class="letter delete ">←</li>
+				</ul>  
+				<br></br>
+				<button class="btn btn-primary btn-block pay" onclick="sendData()">Create Payment</button>
+			</div>
+			<div class="jumbotron magic-jumbotron col-xs-12 col-sm-6 col-md-3 payment-card">
+				<div id='status'><h3>Pay Here</h3></div>
+				<h3 id="result"> <img height='150px' width='150px' src ="/images/turtle.png"/><br></img> No payments yet </h3>
+				<div class="progress">
+					<div class="progress-bar progress-bar-striped progress-bar-animated" id="progress_bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+				</div>
+			</div>
+			<div class="jumbotron magic-jumbotron col-xs-12 col-sm-6 col-md-3 transaction-list">
+				<h2>Transactions List</h2>
+				<h4> Pending</h4>
+				<div id='tran-pending'> Empty..</div>
+				<h4> Successful</h4>
+				<div id='tran-successful'> Empty..</div>
+			</div>
+		</div>
+    </div>
+<script src='/js/app.js' crossorigin="anonymous"></script>
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">MXZ @
+    <a href="https://github.com/MXZZ/">Github</a>
+	<br>
+	<p class='donate'> Donate : TRTLuxyBUXyePr5kXKDYmSNX6Hy4aVzmqeK1RzkkFBSwMoSMoPLxmvvMaku5S2pMMZUPFyysg3TkC2Coizh8jmex4QKPjpXmi3H </p>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</body>
+</html>
