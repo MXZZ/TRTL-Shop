@@ -10,7 +10,7 @@ Features:
  *Check the status of the payments
  *Desktop/Tablet and Mobile responsive interface
  
-![Screenshot](screenshot.png)
+![Screenshot](https://github.com/MXZZ/TRTL-Shop/blob/master/trtl-mxz-entry.png)
 
 
 ## Installation
